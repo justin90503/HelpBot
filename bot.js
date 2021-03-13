@@ -2,6 +2,7 @@ require("dotenv").config()
 
 const Discord = require ("discord.js")
 const client = new Discord.Client()
+cost PORT = process.env.PORT || 7500;
 
 const BOT_PREFIX = "$"
 
